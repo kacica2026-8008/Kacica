@@ -1,4 +1,6 @@
 # Kacica
+케이시카
+
 
 Remotion(React로 영상을 만드는 도구) 기반의 AI 실무 교육 영상 프로젝트입니다.
 
