@@ -16,6 +16,7 @@ npm install
 |---|---|
 | `npm run dev` | Remotion Studio 실행 (브라우저에서 미리보기·문구 수정) |
 | `npm run render` | `out/hello.mp4`로 영상 출력 |
+| `npm run render:cmc` | 가톨릭중앙의료원 강의 인트로를 `out/cmc-intro.mp4`로 출력 |
 | `npm run still` | `out/thumbnail.png`로 썸네일 1장 출력 |
 | `npm run lint` | 타입 검사 |
 
@@ -26,6 +27,7 @@ src/
   index.ts          # 진입점 (수정할 일 거의 없음)
   Root.tsx          # 영상 목록 등록 (크기·길이·fps·기본 문구)
   HelloKacica.tsx   # 샘플 강의 인트로 영상 (10초, 1920x1080)
+  CmcIntro.tsx      # 가톨릭중앙의료원 'AX시대 스마트한 AI활용 전략' 인트로 (10초, 1920x1080)
 public/             # 이미지·음악 등 소스 파일 넣는 곳
 out/                # 렌더링 결과 (git에 올라가지 않음)
 ```
