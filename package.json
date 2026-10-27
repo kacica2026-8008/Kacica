@@ -1,0 +1,24 @@
+{
+  "name": "kacica-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion으로 만드는 AI 실무 교육 영상",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render HelloKacica out/hello.mp4",
+    "still": "remotion still HelloKacica out/thumbnail.png --frame=60",
+    "upgrade": "remotion upgrade",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.539",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.539",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.8",
+    "typescript": "5.8.3"
+  }
+}
